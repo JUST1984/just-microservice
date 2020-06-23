@@ -1,0 +1,13 @@
+server:
+  port: 8081
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+dubbo:
+  protocol:
+    name: dubbo
+    port: 20880
+  cloud:
+    subscribed-services: ''

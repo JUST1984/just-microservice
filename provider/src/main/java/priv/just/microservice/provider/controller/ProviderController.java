@@ -2,7 +2,6 @@ package priv.just.microservice.provider.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +16,6 @@ import java.util.Map;
 
 @Slf4j
 @RestController
-// @RefreshScope
 public class ProviderController implements ProviderService {
 
     @Resource
